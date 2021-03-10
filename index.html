@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Web Studio</title>
     <link rel="stylesheet" href="css/modern-normalize.css">
-    <link rel="stylesheet" href="./css/Style.css">
+    <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/variables.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
@@ -85,15 +85,16 @@
                                 </div>
                                 <div class="form-field">
                                     <label class="form-label" for="comment">Комментарий</label>
-                                    <textarea class="form-textarea" name="comment" id="comment" rows="10"></textarea>
+                                    <textarea class="form-textarea" name="comment" id="comment" placeholder="Введите текст"></textarea>
                                 </div>
                                 <div class="form-field-policy">
-                                    <label class="form-label-policy" for="policy">Соглашаюсь с рассылкой и принимаю <a href="#">Условия договора</a>
-                                    </label>                                        
-                                    <svg class="chechbox-icon" width="16px" height="15px">
-                                            <use href="./Images/symbol-defs.svg#check"></use>
-                                        </svg>
-                                    <input class="policy-checkbox" type="checkbox" name="policy" id="policy" />
+                                    
+
+                                    <label class="form-label-policy" >
+                                        <input class="policy-checkbox" type="checkbox" name="policy" />
+                                        <span class="policy-icon"></span>
+                                    Соглашаюсь с рассылкой и принимаю <a href="#">Условия договора</a>
+                                </label>                                        
                                 </div>
 
                                 <button class="submit-button" type="submit">Отправить</button>
