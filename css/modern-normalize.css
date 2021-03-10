@@ -190,6 +190,11 @@ textarea {
   margin: 0; /* 2 */
 }
 
+input,
+textarea {
+  outline: none;
+}
+
 button {
   border-style: none;
 }
