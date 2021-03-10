@@ -54,7 +54,6 @@ body {
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
 }
 
 ​
@@ -191,11 +190,6 @@ textarea {
   margin: 0; /* 2 */
 }
 
-input,
-textarea {
-  outline: none;
-}
-
 button {
   border-style: none;
 }
@@ -220,7 +214,6 @@ Remove the inheritance of text transform in Edge and Firefox.
 ​
 button,
 select {
-  
   /* 1 */
   text-transform: none;
 }
