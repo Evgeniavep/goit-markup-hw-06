@@ -233,10 +233,12 @@ img {
 
 .close-btn {
   position: absolute;
+  display: flex;
   top: 8px;
   right: 8px;
 
   height: 30px;
+  width: 30px;
   border-radius: 50%;
   padding: 6px;
 
@@ -347,6 +349,8 @@ img {
 }
 
 .form-label-policy {
+  position: relative;
+
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
@@ -367,8 +371,12 @@ img {
 }
 
 .policy-icon {
-  display: inline-flex;
+  position: absolute;
+  left: -4%;
+  top: 1px;
+  box-sizing: border-box;
   align-items: center;
+  margin-right: 9px;
 
   border: 2px solid var(--main-text);
   border-radius: 4px;
@@ -632,6 +640,7 @@ img {
 /* Постоянные клиенты */
 
 .clients {
+  box-sizing: border-box;
   display: flex;
   justify-content: space-between;
   padding-top: 94px;
@@ -837,6 +846,7 @@ img {
 
 .form-subscribe {
   display: inline-flex;
+  justify-content: space-between;
   width: 570px;
 }
 
